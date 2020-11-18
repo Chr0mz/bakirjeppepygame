@@ -1,4 +1,7 @@
 import pygame
+import WaterTower
+import PyroTower
+import ArcherTower
 
 pygame.init()
 
