@@ -2,11 +2,9 @@ import pygame
 import towerTemplate
 
 class WaterTower:
-    def __init__(self, shootingSpeed):
-        skin = pygame.image.load('./assets/Water Tower.png')
-        self.shootingspeed = shootingSpeed
-    
+    def __init__(self):
+        pass
 
-    def shoot(self, shootingSpeed):
+    def shoot(self):
         pass
     

@@ -7,7 +7,7 @@ class towerTemplate:
         self.width = width
         self.height = height
         self.range = 2
-        self.sell = 20
+        self.sellfor = 20
         self.selected = False
         self.menu = None
 
