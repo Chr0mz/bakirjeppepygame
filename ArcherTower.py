@@ -1,4 +1,5 @@
 import pygame
+import towerTemplate
 
 class ArcherTower:
     def __init__(self, shootingSpeed):

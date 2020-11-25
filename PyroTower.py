@@ -1,4 +1,5 @@
 import pygame
+import towerTemplate
 
 class PyroTower:
     def __init__(self, shootingSpeed):

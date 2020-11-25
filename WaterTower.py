@@ -1,4 +1,5 @@
 import pygame
+import towerTemplate
 
 class WaterTower:
     def __init__(self, shootingSpeed):
@@ -6,6 +7,6 @@ class WaterTower:
         self.shootingspeed = shootingSpeed
     
 
-    def shoot(self):
+    def shoot(self, shootingSpeed):
         pass
     
