@@ -1,6 +1,6 @@
 import pygame
-
-
+import random
+import Game
 
 class Menu:
     def __init__(self):
@@ -22,14 +22,17 @@ class Menu:
         self.price = price
 
     def increase_round(self):
-        pass
+        rounds = 1
+        dead = False
+        if not dead:
+            rounds = rounds + 1
 
     def resell(self):
         pass
 
     def reduce_lives_and_towers(self):
-        pass
-    
+        randtowerremoval = random.randint(0, len(Game.game1.towers)) #Tower amount        
+        
     def enemy_generation(self):
         pass
 

@@ -9,7 +9,7 @@ class Projectile:
     def picture(self):
         pass
 
-    def move(self, x, y):
+    def move(self):
         pass
     
 

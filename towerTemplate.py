@@ -10,6 +10,7 @@ class towerTemplate:
         self.sellfor = 20
         self.selected = False
         self.menu = None
+        self.damage = 0
 
 
     def picture(self):
