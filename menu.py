@@ -1,6 +1,4 @@
 import pygame
-import random
-import Game
 
 class Menu:
     def __init__(self):
@@ -15,30 +13,14 @@ class Menu:
     def draw(self, surface):
         pass
 
-    def create_tower(self, name):
-        self.name = name
-    
-    def sell_tower(self, price):
-        self.price = price
+    def click(self, x, y):
+        """"
+        Click somewhere
+        :return: Bool
+        """
 
-    def increase_round(self):
-        rounds = 1
-        dead = False
-        if not dead:
-            rounds = rounds + 1
-
-    def resell(self):
-        pass
-
-    def reduce_lives_and_towers(self):
-        randtowerremoval = random.randint(0, len(Game.game1.towers)) #Tower amount        
-        
-    def enemy_generation(self):
-        pass
-
-    def run(self):
-        pass
-    
-    def collide(self):
-        pass
-
+    def click_menu(self, x, y):
+        """
+        Click on menu
+        :return: String
+        """

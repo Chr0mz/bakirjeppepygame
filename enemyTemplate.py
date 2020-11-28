@@ -1,7 +1,9 @@
 import pygame
 
 class Enemy:
-    images = pygame.image.load('./assets/enemies/')
+    images = [pygame.image.load('./assets/enemies/1/enemy1.png'), 
+    pygame.image.load('./assets/enemies/1/enemy1pos2.png'), 
+    pygame.image.load('./assets/enemies/1/enemy1pos3.png')]
 
     def __init__(self, x, y, width, height):
         self.x = None
@@ -11,7 +13,7 @@ class Enemy:
         self.speed = 0
         self.health = 20
         self.path = []
-        self.imgs = None
+        self.imgs = []
         self.animation_count = 0
 
     def draw(self, window):
@@ -46,6 +48,7 @@ class Enemy:
         Will move enemy.
         return None
         """
+        pass
 
     def hit(self):
         """
